@@ -1,0 +1,82 @@
+@font-face {
+  src: url(fonts/GothamBook.woff2) format("woff2"),
+    url(fonts/GothamBook.woff) format("woff"),
+    url(fonts/GothamBook.ttf) format("truetype");
+  font-family: Gotham;
+}
+
+body {
+  font-family: "Gotham", Helvetica, sans-serif, sans-serif;
+  background-color: #34373a;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  max-width: 7in;
+}
+
+#chicken {
+  width: 175px;
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.link {
+  color: #e1306c;
+  text-decoration: underline;
+  text-decoration-color: #e1306c;
+}
+
+.link:hover {
+  color: #fff;
+  transition: 0.25s;
+  text-decoration: underline;
+  text-decoration-color: #e1306c;
+}
+
+.fab,
+.far {
+  font-size: 25px;
+  margin: 0 10px 0 0;
+  color: #34373a;
+  text-decoration: none;
+  padding: 9px;
+  border-radius: 100%;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.fab:hover,
+.far:hover {
+  transition: 0.25s;
+  color: #fff;
+}
+
+.fa-envelope {
+  background-color: #fff;
+  color: #444;
+}
+
+.fa-envelope:hover {
+  background-color: #d44638;
+}
+
+.fa-instagram:hover {
+  background-color: #e1306c;
+}
+
+.fa-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.fa-github:hover {
+  background-color: #28a745;
+}
+
+.fa-strava:hover {
+  background-color: #fc4c02;
+}
